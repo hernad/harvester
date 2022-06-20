@@ -21,7 +21,7 @@ var (
 	provider       Provider
 	InjectDefaults string
 
-	AgentImage                        = NewSetting("agent-image", "rancher/rancher-agent:master-head")
+	AgentImage                        = NewSetting("agent-image", "rancher/rancher-agent:v1.0.3")
 	AgentRolloutTimeout               = NewSetting("agent-rollout-timeout", "300s")
 	AgentRolloutWait                  = NewSetting("agent-rollout-wait", "true")
 	AuthImage                         = NewSetting("auth-image", v32.ToolsSystemImages.AuthSystemImages.KubeAPIAuth)
