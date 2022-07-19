@@ -91,10 +91,10 @@ No API changes.
   as it's where the Longhorn binaries locate.
 
 - The installer should format the VM disk using EXT4 **partitionless**,
-  with a filesystem label `HARV_LH_DEFAULT`.
+  with a filesystem label `HARV_LH_DEF`.
 
 - The VM disk should be mounted onto `/var/lib/harvester/defaultdisk`. In this case,
-  we will use the filesystem label `HARV_LH_DEFAULT` to achieve this.
+  we will use the filesystem label `HARV_LH_DEF` to achieve this.
 
 #### Upgrade
 
